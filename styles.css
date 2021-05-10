@@ -47,7 +47,7 @@ ul#nav {
 
 ul#nav li {
     display: inline-block;
-    position:relative;
+    position: relative;
     list-style-type: none;
     border: hidden;
     border-radius: 10px;
@@ -59,7 +59,7 @@ ul#nav li {
 }
 
 ul#nav a {
-    color: black;
+    color: #ABA7BB;
     font-size: 18px;
     font-weight: 1000;
     text-shadow: 1px 1px #2d2269;
@@ -87,4 +87,33 @@ body {
     padding: 10px;
     width: 55%;
     position: relative;
+}
+
+/* Color Boxes */
+
+.mulled-wine {
+    background-color: #4A416C;
+    width: 20%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.mulled-wine p {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.spun-pearl {
+    background-color: #ABA7BB;
+    width: 20%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.spun-pearl p {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;    
 }
