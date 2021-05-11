@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 /* font-family: 'Amatic SC', cursive;
@@ -54,7 +55,7 @@ ul#nav li {
     background-color: #261E54;
     padding: 12px 20px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto 6px;
 }
 
 ul#nav a {
@@ -68,10 +69,16 @@ ul#nav a:hover {
     color: #BBB6DB;
 }
 
+ul#nav li:hover {
+    background-color: #4A416C;
+}
+
 /* Body */
 
 .boxxyheader {
     padding: 10px;
+    clear: both;
+    text-align: left;
 }
 
 body {
@@ -84,35 +91,68 @@ body {
     background-color: white;
     margin: 15px auto;
     padding: 10px;
-    width: 55%;
+    width: 60%;
     position: relative;
-}
-
-/* Color Boxes */
-
-.mulled-wine {
-    background-color: #4A416C;
-    width: 20%;
-    padding: 10px;
-    display: inline-block;
-}
-
-.mulled-wine p {
     text-align: center;
-    color: white;
+}
+
+p {
+    text-align: center;
     padding: 5px;
     margin: 5px;
 }
 
-.spun-pearl {
-    background-color: #ABA7BB;
-    width: 20%;
+/* Color Boxes */
+
+.color-box {
+    width: 24%;
     padding: 10px;
     display: inline-block;
+    height: 120px;
+    margin: 0 auto 5px auto;
+    min-width: 150px;
 }
 
-.spun-pearl p {
-    text-align: center;
-    padding: 5px;
-    margin: 5px;    
+.mulled-wine {
+    background-color: #4A416C;
+}
+
+.mulled-wine p {
+    color: white;
+}
+
+.spun-pearl {
+    background-color: #ABA7BB;
+}
+
+.jacarta {
+    background-color: #2D2269;
+}
+
+.jacarta p {
+    color: white;
+}
+
+.port-gore {
+    background-color: #261E54;
+}
+
+.port-gore {
+    color: white;
+}
+
+.lavender-gray {
+    background-color: #BBB6DB;
+}
+
+.waterloo {
+    background-color: #827C9A;
+}
+
+.scampi {
+    background-color: #675DA0;
+}
+
+.victoria {
+    background-color: #473C84;
 }
