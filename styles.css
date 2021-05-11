@@ -46,14 +46,14 @@ nav {
     text-align: center;
 }
 
-ul#nav {
+ul.nav {
     margin: 0 auto;
     width: 100%;
     background-color: #2D2269;
     margin-top: 116px;
 }
 
-ul#nav li {
+ul.nav li {
     display: inline-block;
     list-style-type: none;
     border: hidden;
@@ -65,18 +65,18 @@ ul#nav li {
     margin: 10px auto 10px;
 }
 
-ul#nav a {
+ul.nav > a {
     color: #ABA7BB;
     font-size: 18px;
     font-weight: 1000;
     text-shadow: 1px 1px #2d2269;
 }
 
-ul#nav a:hover {
+ul.nav > a:hover {
     color: #BBB6DB;
 }
 
-ul#nav li:hover {
+ul.nav li:hover {
     background-color: #4A416C;
 }
 
@@ -113,6 +113,8 @@ p {
     text-align: center;
     padding: 5px;
     margin: 5px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 14px;
 }
 
 /* Color Boxes */
@@ -126,11 +128,8 @@ p {
     min-width: 150px;
 }
 
-.mulled-wine {
-    background-color: #4A416C;
-}
-
-.mulled-wine p {
+.port-gore {
+    background-color: #261E54;
     color: white;
 }
 
@@ -140,17 +139,11 @@ p {
 
 .jacarta {
     background-color: #2D2269;
-}
-
-.jacarta p {
     color: white;
 }
 
-.port-gore {
-    background-color: #261E54;
-}
-
-.port-gore {
+.mulled-wine {
+    background-color: #4A416C;
     color: white;
 }
 
@@ -168,6 +161,7 @@ p {
 
 .victoria {
     background-color: #473C84;
+    color: white;
 }
 
 /* Font Box */
@@ -226,4 +220,39 @@ p {
 
 .ptserif {
     font-family: 'PT Serif', serif; 
+}
+
+/* Text Styles */
+
+.text-box {
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 5px auto 5px;
+    vertical-align: auto;
+    padding: 15px;
+    width: 50%;
+    min-width: 400px;
+}
+
+.h1-text-style {
+    font-family: 'Girassol', cursive;
+    font-size: 48px;
+}
+
+.h3-text-style {
+    font-family: 'Karla', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.text-style-list {
+    display: list-item;
+    list-style: disc;
+    text-align: justify;
+    margin: 10px;
+}
+
+ul li {
+    list-style: inside disc;
 }
